@@ -1,8 +1,8 @@
 SHELL := /bin/bash
 
 run: 
-	go run main.go
-
+	go run app/services/sales-api/main.go
+	
 #====================================================================
 # Building containers
 VERSION := 1.0
